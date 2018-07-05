@@ -1,0 +1,25 @@
+{
+  "name": "diario-do-noob",
+  "version": "1.0.0",
+  "description": "My Moleculer project",
+  "scripts": {
+    "dev": "moleculer-runner --repl --hot services",
+    "start": "moleculer-runner services"
+  },
+  "keywords": [
+    "microservices",
+    "moleculer"
+  ],
+  "author": "",
+  "devDependencies": {
+    "moleculer-repl": "^0.3.0"
+  },
+  "dependencies": {
+    "moleculer": "^0.11.0",
+    "moleculer-db": "^0.7.3",
+    "moleculer-web": "^0.6.0"
+  },
+  "engines": {
+    "node": ">= 6.x.x"
+  }
+}
